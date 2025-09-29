@@ -1,26 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+
+*{
+  font-family: din-next-w01-light, din-next-w02-light, din-next-w10-light, sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+.font-impact{
+font-family: impact, impact-w01-2010, impact-w02-2010, impact-w10-2010, sans-serif;}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
